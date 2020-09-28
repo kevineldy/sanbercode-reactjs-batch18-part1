@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama 				: Kevin Eldy
+2. Email  				: kevin.eldy@gmail.com
+3. Sistem Operasi yang digunakan	: Windows 10
+4. Akun Github				: kevineldy
+5. Akun Telegram 			: Keviin_Er
