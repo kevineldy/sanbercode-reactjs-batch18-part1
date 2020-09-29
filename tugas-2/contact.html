@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="public/css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+
+    <header class="nav">
+        <img id="logo" src="public/css/logo.png" width="200px" />
+        <nav>
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a class="active" href="contact.html"><li>Contact</li></a>
+          </ul>
+        </nav>
+    </header>
+
+    <article>
+        <div class="wrap">
+            <h1>Hubungi Kami</h1>
+            <p><span>Kantor :</span> di jalan. -------</p>
+            <p><span>Nomor Telepon :</span> 08xxxx</p>
+            <p><span>Email :</span> Email@email.com</p>
+            <h1>Kirimkan Pesan</h1>
+
+            <table cellspacing="15">
+                <form action="submit" >
+                    <tr>
+                        <td><label>Nama</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td><input type="radio" name="JK">Laki-laki <br><input type="radio" name="JK">Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td><label>Pesan Anda</label></td>
+                        <td><textarea name="pesan" id="" cols="50" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="kirim" value="Kirim"></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </article>
+    
+</body>
+</html>
