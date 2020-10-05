@@ -2,10 +2,17 @@
 console.log("Jawaban Soal No. 1")
 
 const luasLingkaran = (pi, jariJari) => {
-    return pi*jariJari*jariJari;
-  }
+  return pi*jariJari*jariJari;
+}
+
+
+const kelilingLingkaran = (pi, jariJari) => {
+  return 2*pi*jariJari;
+}
 
 console.log("luas lingkaran dari jari-jari 7 adalah " + luasLingkaran(3.14, 7))
+
+console.log("keliling lingkaran dari jari-jari 7 adalah" + kelilingLingkaran (3.14, 7))
 
 console.log()
 
